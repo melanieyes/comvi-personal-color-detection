@@ -285,21 +285,7 @@ Bias summary is printed to terminal.
 
 A summary JSON is saved showing class distributions per model.
 
-❗ GitHub File Size Issue
-The EfficientNet model file (best_efficientnetv2s.h5) is over 100MB, which exceeds GitHub’s limit.
 
-To commit this file:
-
-Enable Git LFS
-bash
-Copy
-Edit
-git lfs install
-git lfs track "*.h5"
-git add .gitattributes
-git add model/best_efficientnetv2s.h5
-git commit -m "Track large model file with Git LFS"
-git push origin master
 🧪 Example Output (Visually Annotated)
 Image	KNN	XGBoost	EfficientNet
 annotated_face01.jpg	Medium	Dark	Medium
@@ -310,8 +296,3 @@ This project is for academic, research, and educational purposes only. Commercia
 👩‍💻 Author
 Melanie - Hanh Nguyen
 
-javascript
-Copy
-Edit
-
-Would you like this saved as a `.md` file and downloaded, or added directly to your GitHub repo once you 
